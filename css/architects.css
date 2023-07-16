@@ -4,6 +4,8 @@
 /* shared style section */
 * {
     font-family: 'Work Sans', sans-serif;
+    /* margin: 0px auto; */
+    /* padding: 0px; */
 }
 .default-btn {
     color: #FFF;
@@ -168,7 +170,41 @@ main {
     font-weight: 700;
 }
 /* feature ends */
-
+/* facts styles start */
+.facts > .default-title {
+    margin-bottom: 10px;
+}
+.facts > .default-text-style {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.facts-box-container {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px;
+}
+.facts-box {
+    /* width: 200px;
+    height: 200px; */
+    border-radius: 8px;
+    padding: 15px 25px;
+    border: 1px solid #FF900E;
+}
+.facts-card-title {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 0px auto;
+}
+.facts-card-text {
+    margin-top: 5px;
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+/* facts styles end */
 
 /* ************************************************************ */
 /* responsive style part */
